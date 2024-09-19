@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slideshow di Immagini</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="slideshow-container">
+        <div class="slide fade">
+            <a href="https://music.amazon.it/albums/B01DPVD06Q?ref=dm_sh_TAhsYbXCbsAxamvhktCT23Yap">
+            <img src="https://m.media-amazon.com/images/I/61zFW55MncL._UX500_FMwebp_QL85_.jpg" alt="Immagine 1">
+        </a>
+        </div>
+        <div class="slide fade">
+            <a href="https://music.amazon.it/albums/B07BCKHQ6Y">
+            <img src="https://m.media-amazon.com/images/I/517lqwnJMhL._UX500_FMwebp_QL85_.jpg" alt="Immagine 2">
+        </a>
+        </div>
+        <div class="slide fade">
+            <a href="https://music.amazon.it/albums/B07ZMHPJ5G">
+            <img src="https://m.media-amazon.com/images/I/41W3v+K9BzL._UX500_FMwebp_QL85_.jpg" alt="Immagine 3">
+        </a>
+        </div>
+        
+        <!-- Pulsanti per la navigazione -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <br>
+
+    <!-- Indicatori di navigazione -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
